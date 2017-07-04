@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		270C48F91F02340D005FA9B6 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270C48F81F02340D005FA9B6 /* GradientView.swift */; };
+		27131D7C1F0A1F2A001390BE /* AstroChannelsListViewController+Communication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27131D7B1F0A1F2A001390BE /* AstroChannelsListViewController+Communication.swift */; };
+		273C846D1F02671B00468818 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 273C846C1F02671B00468818 /* GoogleService-Info.plist */; };
+		273C84701F0281E600468818 /* AstroSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273C846F1F0281E600468818 /* AstroSignInViewController.swift */; };
+		277135C81F09397B00DF0ECB /* AstroChannelsListViewController+InAppNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277135C71F09397B00DF0ECB /* AstroChannelsListViewController+InAppNotifications.swift */; };
+		2771701E1EEFABC000385571 /* ResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2771701D1EEFABC000385571 /* ResponseParser.swift */; };
+		277170201EEFAE9600385571 /* ChannelDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2771701F1EEFAE9600385571 /* ChannelDetails.swift */; };
+		279800681EED76D400593C4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279800671EED76D400593C4A /* AppDelegate.swift */; };
+		2798006D1EED76D400593C4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2798006B1EED76D400593C4A /* Main.storyboard */; };
+		2798006F1EED76D400593C4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2798006E1EED76D400593C4A /* Assets.xcassets */; };
+		279800721EED76D400593C4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279800701EED76D400593C4A /* LaunchScreen.storyboard */; };
+		27983ED61F0671720001D4F6 /* AstroChannelsListViewController+Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27983ED51F0671720001D4F6 /* AstroChannelsListViewController+Search.swift */; };
+		27C941B71EED7FD500BFD271 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C941B61EED7FD500BFD271 /* Global.swift */; };
+		27C941B91EED81A600BFD271 /* AstroChannelsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C941B81EED81A600BFD271 /* AstroChannelsListViewController.swift */; };
+		27C941C01EED862500BFD271 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C941BF1EED862500BFD271 /* Connection.swift */; };
+		27EFEC0A1EFCDE8C007FCFB4 /* ChannelListTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EFEC091EFCDE8C007FCFB4 /* ChannelListTableCell.swift */; };
+		27EFEC0C1EFD1DC2007FCFB4 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EFEC0B1EFD1DC2007FCFB4 /* Utils.swift */; };
+		5C95A9FA4FF8E7F6D543964F /* Pods_Astro_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B5A6C7E199BB93E3531618 /* Pods_Astro_Assignment.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13B5A6C7E199BB93E3531618 /* Pods_Astro_Assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Astro_Assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		270C48F71F02340D005FA9B6 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
+		270C48F81F02340D005FA9B6 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		27131D7B1F0A1F2A001390BE /* AstroChannelsListViewController+Communication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AstroChannelsListViewController+Communication.swift"; sourceTree = "<group>"; };
+		273C846C1F02671B00468818 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		273C846E1F026AC000468818 /* Astro_Assignment-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Astro_Assignment-Bridging-Header.h"; sourceTree = "<group>"; };
+		273C846F1F0281E600468818 /* AstroSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstroSignInViewController.swift; sourceTree = "<group>"; };
+		277135C71F09397B00DF0ECB /* AstroChannelsListViewController+InAppNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AstroChannelsListViewController+InAppNotifications.swift"; sourceTree = "<group>"; };
+		2771701D1EEFABC000385571 /* ResponseParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseParser.swift; sourceTree = "<group>"; };
+		2771701F1EEFAE9600385571 /* ChannelDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelDetails.swift; sourceTree = "<group>"; };
+		279800641EED76D400593C4A /* Astro_Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Astro_Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		279800671EED76D400593C4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2798006C1EED76D400593C4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2798006E1EED76D400593C4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		279800711EED76D400593C4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		279800731EED76D400593C4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27983ED51F0671720001D4F6 /* AstroChannelsListViewController+Search.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AstroChannelsListViewController+Search.swift"; sourceTree = "<group>"; };
+		27C941B61EED7FD500BFD271 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Global.swift; path = Astro_Assignment/Global.swift; sourceTree = "<group>"; };
+		27C941B81EED81A600BFD271 /* AstroChannelsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstroChannelsListViewController.swift; sourceTree = "<group>"; };
+		27C941BF1EED862500BFD271 /* Connection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Connection.swift; path = Astro_Assignment/Communication/Connection.swift; sourceTree = "<group>"; };
+		27E9373A1F002B4300C2718A /* Astro_Assignment.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Astro_Assignment.entitlements; path = Astro_Assignment/Astro_Assignment.entitlements; sourceTree = "<group>"; };
+		27EFEC091EFCDE8C007FCFB4 /* ChannelListTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelListTableCell.swift; sourceTree = "<group>"; };
+		27EFEC0B1EFD1DC2007FCFB4 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Astro_Assignment/Utils.swift; sourceTree = "<group>"; };
+		640C5316E950ECEDE56DC6D3 /* Pods-Astro_Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Astro_Assignment.release.xcconfig"; path = "Pods/Target Support Files/Pods-Astro_Assignment/Pods-Astro_Assignment.release.xcconfig"; sourceTree = "<group>"; };
+		EA004E7E0DE6831858422E6D /* Pods-Astro_Assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Astro_Assignment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Astro_Assignment/Pods-Astro_Assignment.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		279800611EED76D400593C4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C95A9FA4FF8E7F6D543964F /* Pods_Astro_Assignment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		270C48F51F0233EE005FA9B6 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				27C941B61EED7FD500BFD271 /* Global.swift */,
+				27EFEC0B1EFD1DC2007FCFB4 /* Utils.swift */,
+				270C48F61F0233FC005FA9B6 /* GradientView */,
+			);
+			name = Helper;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		270C48F61F0233FC005FA9B6 /* GradientView */ = {
+			isa = PBXGroup;
+			children = (
+				270C48F71F02340D005FA9B6 /* GradientView.h */,
+				270C48F81F02340D005FA9B6 /* GradientView.swift */,
+			);
+			name = GradientView;
+			sourceTree = "<group>";
+		};
+		27131D7D1F0A1FFD001390BE /* User Login */ = {
+			isa = PBXGroup;
+			children = (
+				273C846F1F0281E600468818 /* AstroSignInViewController.swift */,
+			);
+			name = "User Login";
+			sourceTree = "<group>";
+		};
+		27131D7E1F0A204E001390BE /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2798006B1EED76D400593C4A /* Main.storyboard */,
+				279800701EED76D400593C4A /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		277170191EEFAAE100385571 /* ResponseParsers */ = {
+			isa = PBXGroup;
+			children = (
+				2771701F1EEFAE9600385571 /* ChannelDetails.swift */,
+				2771701D1EEFABC000385571 /* ResponseParser.swift */,
+			);
+			name = ResponseParsers;
+			sourceTree = "<group>";
+		};
+		2771701A1EEFAAFC00385571 /* VIewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2771701C1EEFAB2400385571 /* Channels List */,
+				27131D7D1F0A1FFD001390BE /* User Login */,
+			);
+			name = VIewControllers;
+			sourceTree = "<group>";
+		};
+		2771701C1EEFAB2400385571 /* Channels List */ = {
+			isa = PBXGroup;
+			children = (
+				27C941B81EED81A600BFD271 /* AstroChannelsListViewController.swift */,
+				277135C71F09397B00DF0ECB /* AstroChannelsListViewController+InAppNotifications.swift */,
+				27983ED51F0671720001D4F6 /* AstroChannelsListViewController+Search.swift */,
+				27131D7B1F0A1F2A001390BE /* AstroChannelsListViewController+Communication.swift */,
+				27EFEC091EFCDE8C007FCFB4 /* ChannelListTableCell.swift */,
+			);
+			name = "Channels List";
+			sourceTree = "<group>";
+		};
+		2798005B1EED76D300593C4A = {
+			isa = PBXGroup;
+			children = (
+				279800661EED76D400593C4A /* Astro_Assignment */,
+				273C846E1F026AC000468818 /* Astro_Assignment-Bridging-Header.h */,
+				273C846C1F02671B00468818 /* GoogleService-Info.plist */,
+				27E9373A1F002B4300C2718A /* Astro_Assignment.entitlements */,
+				279800651EED76D400593C4A /* Products */,
+				36CE57B7D5B0A006C94401D5 /* Pods */,
+				2E71A95F22C95AD989375ECD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		279800651EED76D400593C4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				279800641EED76D400593C4A /* Astro_Assignment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		279800661EED76D400593C4A /* Astro_Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				279800671EED76D400593C4A /* AppDelegate.swift */,
+				27131D7E1F0A204E001390BE /* Storyboards */,
+				2771701A1EEFAAFC00385571 /* VIewControllers */,
+				27C941BE1EED85EE00BFD271 /* Communication */,
+				277170191EEFAAE100385571 /* ResponseParsers */,
+				270C48F51F0233EE005FA9B6 /* Helper */,
+				2798006E1EED76D400593C4A /* Assets.xcassets */,
+				279800731EED76D400593C4A /* Info.plist */,
+			);
+			path = Astro_Assignment;
+			sourceTree = "<group>";
+		};
+		27C941BE1EED85EE00BFD271 /* Communication */ = {
+			isa = PBXGroup;
+			children = (
+				27C941BF1EED862500BFD271 /* Connection.swift */,
+			);
+			name = Communication;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		2E71A95F22C95AD989375ECD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13B5A6C7E199BB93E3531618 /* Pods_Astro_Assignment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36CE57B7D5B0A006C94401D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA004E7E0DE6831858422E6D /* Pods-Astro_Assignment.debug.xcconfig */,
+				640C5316E950ECEDE56DC6D3 /* Pods-Astro_Assignment.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		279800631EED76D400593C4A /* Astro_Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 279800761EED76D400593C4A /* Build configuration list for PBXNativeTarget "Astro_Assignment" */;
+			buildPhases = (
+				84E5C5D0B4DE8510D1C2A5BF /* [CP] Check Pods Manifest.lock */,
+				279800601EED76D400593C4A /* Sources */,
+				279800611EED76D400593C4A /* Frameworks */,
+				279800621EED76D400593C4A /* Resources */,
+				9D6A0ED41E918886029F149B /* [CP] Embed Pods Frameworks */,
+				5793E9D9BED21BB5DA140155 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Astro_Assignment;
+			productName = Astro_Assignment;
+			productReference = 279800641EED76D400593C4A /* Astro_Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2798005C1EED76D300593C4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Kundan;
+				TargetAttributes = {
+					279800631EED76D400593C4A = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = V2KBLMV955;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 2798005F1EED76D300593C4A /* Build configuration list for PBXProject "Astro_Assignment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2798005B1EED76D300593C4A;
+			productRefGroup = 279800651EED76D400593C4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				279800631EED76D400593C4A /* Astro_Assignment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		279800621EED76D400593C4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279800721EED76D400593C4A /* LaunchScreen.storyboard in Resources */,
+				273C846D1F02671B00468818 /* GoogleService-Info.plist in Resources */,
+				2798006F1EED76D400593C4A /* Assets.xcassets in Resources */,
+				2798006D1EED76D400593C4A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5793E9D9BED21BB5DA140155 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Astro_Assignment/Pods-Astro_Assignment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84E5C5D0B4DE8510D1C2A5BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9D6A0ED41E918886029F149B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Astro_Assignment/Pods-Astro_Assignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		279800601EED76D400593C4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277135C81F09397B00DF0ECB /* AstroChannelsListViewController+InAppNotifications.swift in Sources */,
+				27C941B91EED81A600BFD271 /* AstroChannelsListViewController.swift in Sources */,
+				27983ED61F0671720001D4F6 /* AstroChannelsListViewController+Search.swift in Sources */,
+				270C48F91F02340D005FA9B6 /* GradientView.swift in Sources */,
+				27EFEC0C1EFD1DC2007FCFB4 /* Utils.swift in Sources */,
+				279800681EED76D400593C4A /* AppDelegate.swift in Sources */,
+				273C84701F0281E600468818 /* AstroSignInViewController.swift in Sources */,
+				277170201EEFAE9600385571 /* ChannelDetails.swift in Sources */,
+				2771701E1EEFABC000385571 /* ResponseParser.swift in Sources */,
+				27C941B71EED7FD500BFD271 /* Global.swift in Sources */,
+				27EFEC0A1EFCDE8C007FCFB4 /* ChannelListTableCell.swift in Sources */,
+				27C941C01EED862500BFD271 /* Connection.swift in Sources */,
+				27131D7C1F0A1F2A001390BE /* AstroChannelsListViewController+Communication.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2798006B1EED76D400593C4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2798006C1EED76D400593C4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		279800701EED76D400593C4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				279800711EED76D400593C4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		279800741EED76D400593C4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		279800751EED76D400593C4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		279800771EED76D400593C4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA004E7E0DE6831858422E6D /* Pods-Astro_Assignment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Astro_Assignment/Astro_Assignment.entitlements;
+				DEVELOPMENT_TEAM = V2KBLMV955;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Astro_Assignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kundan.Jadhav.Astro-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Astro_Assignment-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		279800781EED76D400593C4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 640C5316E950ECEDE56DC6D3 /* Pods-Astro_Assignment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Astro_Assignment/Astro_Assignment.entitlements;
+				DEVELOPMENT_TEAM = V2KBLMV955;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Astro_Assignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kundan.Jadhav.Astro-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Astro_Assignment-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2798005F1EED76D300593C4A /* Build configuration list for PBXProject "Astro_Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279800741EED76D400593C4A /* Debug */,
+				279800751EED76D400593C4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		279800761EED76D400593C4A /* Build configuration list for PBXNativeTarget "Astro_Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279800771EED76D400593C4A /* Debug */,
+				279800781EED76D400593C4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2798005C1EED76D300593C4A /* Project object */;
+}

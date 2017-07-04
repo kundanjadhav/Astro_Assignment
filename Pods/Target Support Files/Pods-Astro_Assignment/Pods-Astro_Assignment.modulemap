@@ -1,0 +1,6 @@
+framework module Pods_Astro_Assignment {
+  umbrella header "Pods-Astro_Assignment-umbrella.h"
+
+  export *
+  module * { export * }
+}
